@@ -5,7 +5,7 @@ def load_image():
     
     # add path to source and target images
     source = cv2.imread('images/autumn.jpg')
-    target = cv2.imread('images/e.jpg')
+    target = cv2.imread('images/fallingwater.jpg')
     
     return (source,target)
  

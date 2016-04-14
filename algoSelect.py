@@ -4,8 +4,13 @@ import cv2
 def load_image():
     
     # add path to source and target images
+<<<<<<< HEAD
     source = cv2.imread('images/red_nature.jpg')
     target = cv2.imread('images/frog.jpg')
+=======
+    source = cv2.imread('images/autumn.jpg')
+    target = cv2.imread('images/fallingwater.jpg')
+>>>>>>> origin/master
     
     return (source,target)
  
